@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Продукт 1",
+      "description": "Описание продукта 1",
+      "image": "/images/product1.jpg",
+      "whatsapp": "https://wa.me/1234567890",
+      "category": "Категория 1"
+    },
+    {
+      "id": 2,
+      "name": "Продукт 2",
+      "description": "Описание продукта 2",
+      "image": "/images/product2.jpg",
+      "whatsapp": "https://wa.me/0987654321",
+      "category": "Категория 1"
+    },
+    {
+      "id": 3,
+      "name": "Продукт 3",
+      "description": "Описание продукта 3",
+      "image": "/images/product3.jpg",
+      "whatsapp": "https://wa.me/1122334455",
+      "category": "Категория 2"
+    }
+  ]
+  
