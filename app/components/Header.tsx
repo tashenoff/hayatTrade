@@ -1,17 +1,51 @@
-// app/components/Header.tsx
+// components/Header.tsx
+import React from 'react';
 import Link from 'next/link';
+import Breadcrumbs from './Breadcrumbs';
 
-export default function Header() {
+const Header = () => {
   return (
-    <header>
-      <nav>
-        <ul>
-          <li><Link href="/">Главная</Link></li>
-          <li><Link href="/about">О нас</Link></li>
-          <li><Link href="/catalog">Каталог</Link></li>
-          <li><Link href="/contacts">Контакты</Link></li>
-        </ul>
-      </nav>
-    </header>
+    <>
+      <header className='bg-primary p-5'>
+        <div className='container mx-auto flex justify-between items-center'>
+          <div className='flex space-x-4'>
+            <Link href='/'>
+              <span className='text-white cursor-pointer'>Главная</span>
+            </Link>
+            <Link href='/about'>
+              <span className='text-white cursor-pointer'>О нас</span>
+            </Link>
+            <Link href='/catalog'>
+              <span className='text-white cursor-pointer'>Каталог</span>
+            </Link>
+            <Link href='/contacts'>
+              <span className='text-white cursor-pointer'>Контакты</span>
+            </Link>
+          </div>
+          <div>
+
+          </div>
+        </div>
+
+
+      </header>
+      <div className='container mx-auto my-5'>
+        <div className='w-full flex justify-end'>
+          <Breadcrumbs
+            homeElement={
+              <span className='text-primary cursor-pointer w-full'>Главная</span>}
+            separator={<span>/</span>}
+            containerClasses='flex space-x-2'
+            listClasses='text-white cursor-pointer'
+            activeClasses='font-bold'
+            capitalizeLinks={true}
+
+          />
+        </div>
+      </div>
+    </>
+
   );
-}
+};
+
+export default Header;

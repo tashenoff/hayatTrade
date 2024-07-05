@@ -1,27 +1,74 @@
 [
-    {
-      "id": 1,
-      "name": "Продукт 1",
-      "description": "Описание продукта 1",
-      "image": "/images/product1.jpg",
-      "whatsapp": "https://wa.me/1234567890",
-      "category": "Категория 1"
-    },
-    {
-      "id": 2,
-      "name": "Продукт 2",
-      "description": "Описание продукта 2",
-      "image": "/images/product2.jpg",
-      "whatsapp": "https://wa.me/0987654321",
-      "category": "Категория 1"
-    },
-    {
-      "id": 3,
-      "name": "Продукт 3",
-      "description": "Описание продукта 3",
-      "image": "/images/product3.jpg",
-      "whatsapp": "https://wa.me/1122334455",
-      "category": "Категория 2"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Product 1",
+    "image": "https://dummyimage.com/300",
+    "shortDescription": "Short description of product 1",
+    "fullDescription": "Full description of product 1",
+    "category": "Category A",
+    "sku": "SKU-001"
+  },
+  {
+    "id": 2,
+    "name": "Product 2",
+    "image": "https://dummyimage.com/300",
+    "shortDescription": "Short description of product 2",
+    "fullDescription": "Full description of product 2",
+    "category": "Category B",
+    "sku": "SKU-002"
+  },
+  {
+    "id": 3,
+    "name": "Product 3",
+    "image": "https://dummyimage.com/300",
+    "shortDescription": "Short description of product 1",
+    "fullDescription": "Full description of product 1",
+    "category": "Category A",
+    "sku": "SKU-003"
+  },
+  {
+    "id": 4,
+    "name": "Product 4",
+    "image": "https://dummyimage.com/300",
+    "shortDescription": "Short description of product 2",
+    "fullDescription": "Full description of product 2",
+    "category": "Category B",
+    "sku": "SKU-004"
+  },
+  {
+    "id": 5,
+    "name": "Product 5",
+    "image": "https://dummyimage.com/300",
+    "shortDescription": "Short description of product 1",
+    "fullDescription": "Full description of product 1",
+    "category": "Category A",
+    "sku": "SKU-005"
+  },
+  {
+    "id": 6,
+    "name": "Product 6",
+    "image": "https://dummyimage.com/300",
+    "shortDescription": "Short description of product 2",
+    "fullDescription": "Full description of product 2",
+    "category": "Category B",
+    "sku": "SKU-006"
+  },
+  {
+    "id": 7,
+    "name": "Product 7",
+    "image": "https://dummyimage.com/300",
+    "shortDescription": "Short description of product 1",
+    "fullDescription": "Full description of product 1",
+    "category": "Category A",
+    "sku": "SKU-007"
+  },
+  {
+    "id": 8,
+    "name": "Product 8",
+    "image": "https://dummyimage.com/300",
+    "shortDescription": "Short description of product 2",
+    "fullDescription": "Full description of product 2",
+    "category": "Category B",
+    "sku": "SKU-008"
+  }
+]
